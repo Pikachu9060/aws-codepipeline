@@ -1,0 +1,140 @@
+nav a {
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	margin: 00px 20px 00px 20px;
+	text-decoration: none;
+	float: right;
+}
+
+nav{
+	background-color: rgba(0,0,0,0);
+	padding: 20px;
+	position: fixed;
+	width: 100%;
+	left : 0;
+	top: 0;
+}
+
+.bgimage{
+
+	top: 0;
+	width: 100%;
+	height: 600px;
+	color: green;
+}
+
+.container{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+
+.center{
+	position: absolute;
+	top: 200px;
+	left: 45%;
+}
+
+.roundedImage{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+
+.row::after{
+	top: 400px;
+	left: 100px;
+	margin: 8px - 16px;
+	padding:  8px - 16px;
+}
+
+.column{
+	width: 10%;
+	float: left;
+	padding: 50px;
+}
+
+.rowIcons{
+	position: absolute;
+	top: 480px;
+	margin:  20px;
+	left: 20%;
+}
+
+.box{
+	height: 40px;
+	width: 120px;
+	background:  green;
+	border-radius: 10px;
+	margin: 10px 10px 10px 10px ;
+	padding: 5px 00px 5px 00px;
+}
+
+.rowContainer{
+	position: absolute;
+	top: 350px;
+	margin:  10px;
+	left: 34%;
+
+}
+
+.card-row {
+  display: flex;
+  width: 80%;
+  padding: 10px;
+  margin: 70px 10px 100px 100px;
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 10px;	
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card-column {
+  width: 60%;
+  height: 300px;
+}
+
+
+#headerName{
+	font-weight: bold;
+	font-size: 25px;
+	display: inline;
+	top: 300px;
+	left: 39%;
+	color: white;
+	position: absolute;
+}
+
+#skills{
+	font-size: 20px;
+	position: absolute;
+	top: 350px;
+	left: 31%;
+	color: white;
+}
+
+#roundedIcon{
+	height: 40px;
+	width: 40px;
+	padding: 20px;
+	border-radius: 50%;
+	background-color: grey;
+}
+
+#inforamation-header{
+	font-weight: bold;
+	font-weight: 20px;
+}
+
+#basic-inforamation{
+	font-weight: normal;
+	font-size: 18;
+}
+
